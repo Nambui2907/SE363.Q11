@@ -1,0 +1,15 @@
+# Ignore ML models
+models/
+*.pt
+*.pth
+
+# Airflow runtime
+logs/
+airflow.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment
+.env
